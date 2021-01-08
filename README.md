@@ -9,10 +9,14 @@ Linux is essentially composed of directories et files but every directories have
 >The second meaning is the type of filesystem, it is how the storage of data is organized on the physical disk. Each type of filesystem has its own set of rules for controlling the allocation of disk space to files and for associating meta-data about each file with that file (filename, permissions, creation date, ...)
 >Examples of filesystem : ext4, btrfs, xfs, ...
 
+## Filesystem
+
 The file system on Linux is organized like a **tree**. At the very top of the tree, there is the **root** wich contains folders that have a particular purpose.  
 Any file path in the Linux system starts from the root. This root is noted with a slash **/**.
 
 >This root could be compare to the **C:\\** of Windows.
+
+## Paths
 
 A **path** is the location of a folder from the root.
 Moving from the root trough the folders is called When you start from the root and then move through the folders, the whole location is called path.  
