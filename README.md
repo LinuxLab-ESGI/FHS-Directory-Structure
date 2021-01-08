@@ -41,21 +41,21 @@ Here are the main directories present in most distros :
 | /boot     | Files for Linux startup (Bootloader, kernel, initrd, ...)                                                      |
 | /dev      | (**dev**ice) Entry point for devices (scree, disks, partitions, null, TTY, webcam, ...)                        |
 | /etc      | (**e**diting **t**ext **c**onfig) Files for services and system configurations                                 |
-| /etc/opt  | (**o**ptional) Configuration files for additionnal programs and software stored in /opt                        |
+| /etc/opt  | (**opt**ional) Configuration files for additionnal programs and software stored in /opt                        |
 | /home     | users' home directory for peronnal data and settings                                                           |
-| /lib      | (**l**ibraries) Libraries for all the binaries                                                                 |
+| /lib      | (**lib**raries) Libraries for all the binaries                                                                 |
 | /media    | mounting point for removable devices (CD-ROMs)                                                                 |
-| /mnt      | (**m**ount) Temporary mounting point for removable devices                                                     |
-| /opt      | (**o**ptional) Additionnal softwares and programs installed out of the distro's repo                           |
-| /proc     | (**p**rocess) Vitual directory containing informations about the kernel and process                            |
+| /mnt      | (**m**ou**nt**) Temporary mounting point for removable devices                                                     |
+| /opt      | (**opt**ional) Additionnal softwares and programs installed out of the distro's repo                           |
+| /proc     | (**proc**ess) Vitual directory containing informations about the kernel and process                            |
 | /root     | Home directory of the user root                                                                                |
 | /run      | (**run**tim system) Files about the running system  (executed services and users informations)                 |
 | /sbin     | (**s**uper **bin**aries)                                                                                       |
 | /srv      | (**s**e**rv**ices) Essential binaries only usable by root user (usually system binaries)                       |
-| /sys      | (**s**ystem) Inforamtion about devices, drivers and kernels features                                           |
+| /sys      | (**sys**tem) Inforamtion about devices, drivers and kernels features                                           |
 | /tmp      | (**t**e**mp**orary) Directory to store temporary files for users and system (cleared after a reboot)           |
-| /usr      | (**U**nix **s**ystem **r**essources) Binaries, documentation, source code, libraries for second level program. |
-| /var      | (**v**ariables) logs, databases, web sites, ...                                                                |
+| /usr      | (**u**nix **s**ystem **r**essources) Binaries, documentation, source code, libraries for second level program. |
+| /var      | (**var**iables) logs, databases, web sites, ...                                                                |
 
 ___
 Updated : 08/01/2021
