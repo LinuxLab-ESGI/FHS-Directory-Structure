@@ -34,29 +34,29 @@ There are 2 types of a path :
 
 Here are the main directories present in most distros :
 
-| Directory | Utility                                                                                                        |
-| --------- | -------------------------------------------------------------------------------------------------------------- |
-| /         | Root directory of the entire filesystem                                                                        |
-| /bin      | (**bin**aries) Essential binaries usable by every users                                                        |
-| /boot     | Files for Linux startup (Bootloader, kernel, initrd, ...)                                                      |
-| /dev      | (**dev**ice) Entry point for devices (scree, disks, partitions, null, TTY, webcam, ...)                        |
-| /etc      | (**e**diting **t**ext **c**onfig) Files for services and system configurations                                 |
-| /etc/opt  | (**opt**ional) Configuration files for additionnal programs and software stored in /opt                        |
-| /home     | users' home directory for peronnal data and settings                                                           |
-| /lib      | (**lib**raries) Libraries for all the binaries                                                                 |
-| /media    | mounting point for removable devices (CD-ROMs)                                                                 |
-| /mnt      | (**m**ou**nt**) Temporary mounting point for removable devices                                                     |
-| /opt      | (**opt**ional) Additionnal softwares and programs installed out of the distro's repo                           |
-| /proc     | (**proc**ess) Vitual directory containing informations about the kernel and process                            |
-| /root     | Home directory of the user root                                                                                |
-| /run      | (**run**tim system) Files about the running system  (executed services and users informations)                 |
-| /sbin     | (**s**uper **bin**aries)                                                                                       |
-| /srv      | (**s**e**rv**ices) Essential binaries only usable by root user (usually system binaries)                       |
-| /sys      | (**sys**tem) Inforamtion about devices, drivers and kernels features                                           |
-| /tmp      | (**t**e**mp**orary) Directory to store temporary files for users and system (cleared after a reboot)           |
-| /usr      | (**u**nix **s**ystem **r**essources) Binaries, documentation, source code, libraries for second level program. |
-| /var      | (**var**iables) logs, databases, web sites, ...                                                                |
+| Directory           | Utility                                                                                                                                          |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| /                   | Root directory of the entire filesystem                                                                                                          |
+| /bin                | (**bin**aries) Essential binaries usable by every users                                                                                          |
+| /boot               | Files for Linux startup (Bootloader, kernel, initrd, ...)                                                                                        |
+| /dev                | (**dev**ice) representation of an entry point for devices (scree, disks, partitions, null, TTY, webcam, ...)                                     |
+| /etc                | (**e**diting **t**ext **c**onfig) Files for services and system configurations                                                                   |
+| /etc/opt            | (**opt**ional) Configuration files for additionnal programs and software stored in /opt                                                          |
+| /home               | users' home directory for peronnal data and settings                                                                                             |
+| /lib (lib32, lib64) | (**lib**raries) Libraries for all the essential binaries for the system (.so => equivalent of dll for Windows)                                   |
+| /media              | Permanent mounting point for removable devices (CD-ROMs)                                                                                         |
+| /mnt                | (**m**ou**nt**) Temporary mounting point for removable devices                                                                                   |
+| /opt                | (**opt**ional) Additionnal softwares and programs installed out of the distro's repo                                                             |
+| /proc               | (**proc**ess) Vitual directory containing informations about the kernel and process                                                              |
+| /root               | Home directory of the user root                                                                                                                  |
+| /run                | (**run**tim system) Files about the running system  (executed services and users informations)                                                   |
+| /sbin               | (**s**uper **bin**aries)                                                                                                                         |
+| /srv                | (**s**e**rv**ices) Essential binaries only usable by root user (usually system binaries)                                                         |
+| /sys                | (**sys**tem) Information between OS and physical componenents such as devices, drivers and kernels features                                      |
+| /tmp                | (**t**e**mp**orary) Directory to store temporary files for users and system (cleared after a reboot)                                             |
+| /usr                | (**u**nix **s**ystem **r**essources) Non essential binaries, documentation (/usr/share), source code, icons, libraries for second level program. |
+| /var                | (**var**iables) logs, databases, web sites, ...                                                                                                  |
 
 ___
-Updated : 08/01/2021
+Updated : 09/01/2021  
 Author : AnthonyF
